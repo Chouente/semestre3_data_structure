@@ -6,7 +6,7 @@ class масиф:
         
     def add(self, nber):
         if self.capacite == self.size:
-            self._redimensionner()
+            self.redimensionner()
         self.tab[self.size] = nber
         self.size += 1
         
